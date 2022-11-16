@@ -18,11 +18,13 @@ class Program
         Console.Write("\nGuess a number: ");
         guess = Convert.ToInt32(Console.ReadLine());
 
-        if (randomNum == guess) {
+        if (randomNum == guess)
+        {
             Console.WriteLine("\nThe number was " + randomNum + " you got it!");
         }
 
-        if (randomNum != guess) {
+        if (randomNum != guess)
+        {
             Console.WriteLine("\nThe number was " + randomNum + "." + " Good luck next time.");
         }
     }
